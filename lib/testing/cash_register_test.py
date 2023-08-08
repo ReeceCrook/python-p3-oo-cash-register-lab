@@ -34,7 +34,7 @@ class TestCashRegister:
         '''accepts a title and a price and increases the total.'''
         self.cash_register.add_item("eggs", 0.98)
         assert(self.cash_register.total == 0.98)
-        # self.reset_total(self.cash_register)
+        # self.reset_total(self.cash_register)  
         self.reset_register_totals()
 
     def test_add_item_optional_quantity(self):
